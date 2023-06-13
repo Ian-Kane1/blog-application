@@ -1,0 +1,118 @@
+/* style.css */
+/* Your custom CSS goes here */
+
+/* body css */
+body {
+    width: 100vw;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    color: #000;
+    background-color: #f0eaea;
+    margin: auto;
+    padding: 0;
+}
+
+/* link css */
+a {
+    text-decoration: none;
+    color: #000;
+} 
+
+/* logo css */
+.logo {
+    background-color: #101820;
+    color: #fff;
+}
+
+.logo:hover {
+    background-color: #233445;
+    color: #fff;
+}
+
+/* header css */
+header {
+    background-color: #fff;
+}
+
+/* unordered list css */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+    padding: 0;
+}
+
+ul .tags-list li {
+    display: block;
+}
+
+/* footer css */
+div > footer {
+    padding-top: 10em;
+    padding-bottom: 1em;
+}
+
+/* button css */
+
+.read-more-button {
+    background-color: #073da0;
+    border: #073da0;
+    color: #fff;
+}
+
+.read-more-button:hover {
+    background-color: #072e76;
+    border: #072e76;
+    color: #fff;
+}
+
+.category-button {
+    background-color: #F9E795;
+    border: #F9E795;
+    color: #000;
+}
+
+.category-button:hover {
+    background-color: #ccbe7e;
+    border: #ccbe7e;
+    color: #000;
+}
+
+.tag-button {
+    background-color: #81f38e;
+    border: #81f38e;
+    color: #000;
+}
+
+.tag-button:hover {
+    background-color: #6ecf79;
+    border: #6ecf79;
+    color: #000;
+}
+
+.new-post-button {
+    background-color: #073da0;
+    border: #073da0;
+    color: #fff;
+}
+
+.new-post-button:hover {
+    background-color: #052a6d;
+    border: #052a6d;
+    color: #fff;
+}
+
+/* category css */
+.cat-tag-card{
+    max-width: 350px;
+}
+
+/* nav links css */
+nav ul li a:hover, nav ul li a:focus, nav ul li a:active {
+    text-decoration: underline;
+}
