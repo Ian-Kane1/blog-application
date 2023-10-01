@@ -2,4 +2,4 @@
 
 ## Overview
 
-This application creates, displays, updates, and deletes blog data gathered from a MySQL database.
+This application uploads and displays blog posts, while proving a registration and login system, gathered from a MySQL database.
